@@ -1,0 +1,44 @@
+use chatbot;
+
+db.queryresponses.insertMany([
+  {
+    "question": "Hello",
+    "response": "Hi there! How can I assist you today?"
+  },
+  {
+    "question": "What is Natural Language Processing?",
+    "response": "Natural Language Processing (NLP) is a field of artificial intelligence that enables computers to understand, interpret, and respond to human language."
+  },
+  {
+    "question": "What can NLP be used for?",
+    "response": "NLP can be used for a variety of applications, including sentiment analysis, language translation, chatbots, and information extraction."
+  },
+  {
+    "question": "How does a chatbot work?",
+    "response": "A chatbot works by using NLP to process user inputs and generate appropriate responses based on pre-defined rules or trained machine learning models."
+  },
+  {
+    "question": "Tell me a joke",
+    "response": "Why don't scientists trust atoms? Because they make up everything!"
+  },
+  {
+    "question": "What is machine learning?",
+    "response": "Machine learning is a subset of artificial intelligence that involves training algorithms to make predictions or decisions based on data."
+  },
+  {
+    "question": "How can I learn more about NLP?",
+    "response": "You can learn more about NLP by taking online courses, reading research papers, and experimenting with NLP libraries and tools."
+  },
+  {
+    "question": "What is sentiment analysis?",
+    "response": "Sentiment analysis is a technique used in NLP to determine the emotional tone behind a piece of text, such as whether it is positive, negative, or neutral."
+  },
+  {
+    "question": "Translate 'Hello' to Spanish",
+    "response": "Hola"
+  },
+  {
+    "question": "What is tokenization?",
+    "response": "Tokenization is the process of splitting text into individual words or phrases, called tokens, which can be analyzed separately."
+  }
+]);
